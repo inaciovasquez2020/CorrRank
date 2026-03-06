@@ -1,0 +1,67 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["82bc19e3cb12bad4.olean"],
+  "i": "f6061f73135b3b68.ilean",
+  "c": "6e9108db928ed9d9.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/Cli/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/batteries/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/Qq/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/aesop/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/importGraph/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/plausible/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/packages/mathlib/.lake/build/lib/lean:/Users/inaciof.vasquez/github-audit/CorrRank/.lake/build/lib/lean /Users/inaciof.vasquez/.elan/toolchains/leanprover--lean4---v4.29.0-rc4/bin/lean /Users/inaciof.vasquez/github-audit/CorrRank/src/CorrRank/CorrRankRigidity_Final.lean -o /Users/inaciof.vasquez/github-audit/CorrRank/.lake/build/lib/lean/CorrRank/CorrRankRigidity_Final.olean -i /Users/inaciof.vasquez/github-audit/CorrRank/.lake/build/lib/lean/CorrRank/CorrRankRigidity_Final.ilean -c /Users/inaciof.vasquez/github-audit/CorrRank/.lake/build/ir/CorrRank/CorrRankRigidity_Final.c --setup /Users/inaciof.vasquez/github-audit/CorrRank/.lake/build/ir/CorrRank/CorrRankRigidity_Final.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:17:9: unused variable `G`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:20:17: unused variable `G`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:20:37: unused variable `k`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:20:39: unused variable `R`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:23:18: unused variable `G`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:26:0: automatically included section variable(s) unused in theorem `CorrRank.cor_implies_type_diversity`:\n  [DecidableEq V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:28:3: unused variable `hCOR`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:34:0: automatically included section variable(s) unused in theorem `CorrRank.type_diversity_implies_entropy`:\n  [DecidableEq V]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq V] in theorem ...\n\nNote: This linter can be disabled with `set_option linter.unusedSectionVars false`",
+   "level": "warning"},
+  {"message":
+   "src/CorrRank/CorrRankRigidity_Final.lean:36:3: unused variable `h`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"}],
+ "inputs":
+ [["CorrRank.CorrRankRigidity_Final:deps",
+   [["deps",
+     [["CorrRank/CorrRank:extraDep",
+       [["@CorrRank:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Mathlib.Combinatorics.SimpleGraph.Basic transitive imports (legacy)",
+         "1cfc0be76e4188e2"],
+        ["Mathlib.Combinatorics.SimpleGraph.Basic:importAllArts",
+         "57478e0347e384e3"],
+        ["Mathlib.Data.Fintype.Basic transitive imports (legacy)",
+         "cea387080179afa9"],
+        ["Mathlib.Data.Fintype.Basic:importAllArts", "9a99c57ec5ac471f"],
+        ["Mathlib.Tactic transitive imports (legacy)", "c8db283a5f3bd9a1"],
+        ["Mathlib.Tactic:importAllArts", "701a4d63cd405f2b"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.29.0, commit 95583d74bd14ff8cc2b789347d15dfdad1259f97",
+   "b47cb87a0b6f79d6"],
+  ["/Users/inaciof.vasquez/github-audit/CorrRank/src/CorrRank/CorrRankRigidity_Final.lean",
+   "83053b20b5850eed"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: CorrRank.CorrRankRigidity_Final", "982479df1b2a1f5a"],
+  ["Package.id?: (some CorrRank)", "18bbe37a0657b0af"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "615aae79b77ed986"}
