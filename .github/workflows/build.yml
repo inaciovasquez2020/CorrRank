@@ -6,17 +6,15 @@ pull_request:
 
 jobs:
 build:
+name: Build
 runs-on: ubuntu-latest
 
 steps:
   - name: Checkout repository
     uses: actions/checkout@v4
 
-  - name: Install Lean
+  - name: Run Lean CI
     uses: leanprover/lean-action@v1
     with:
       use-mathlib-cache: true
-
-  - name: Build project
-    run: lake build
 
