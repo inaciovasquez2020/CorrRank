@@ -1,3 +1,4 @@
+![Lean Build](https://github.com/inaciovasquez2020/CorrRank/actions/workflows/build.yml/badge.svg)
 
 # CorrRank — Cycle Overlap Rank Rigidity (Lean Formalization)
 
