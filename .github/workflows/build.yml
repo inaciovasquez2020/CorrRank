@@ -1,0 +1,21 @@
+name: Lean build
+
+on: [push, pull_request]
+
+jobs:
+build:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v4
+
+```
+  - name: Install Lean
+    uses: leanprover/lean-action@v1
+
+  - name: Fetch cache
+    run: lake exe cache get
+
+  - name: Build
+    run: lake build
+```
+
