@@ -1,4 +1,4 @@
-name: Lean build
+name: Lean CI
 
 on:
 push:
@@ -8,17 +8,15 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
-  - uses: actions/checkout@v4
+  - name: Checkout repository
+    uses: actions/checkout@v4
 
   - name: Install Lean
     uses: leanprover/lean-action@v1
-
-  - name: Fetch mathlib cache
-    run: lake exe cache get
+    with:
+      use-mathlib-cache: true
 
   - name: Build project
     run: lake build
-```
 
